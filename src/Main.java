@@ -4,7 +4,7 @@ public class Main {
     }
 
     public static int suma(int a, int b, int c){
-        var sum= a+b+c;
-        return sum;
+        return a+b+c;
+
     }
 }
