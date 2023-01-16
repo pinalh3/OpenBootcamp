@@ -1,15 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int numeroWhile = 0;
 
-        do {
-            System.out.println(numeroWhile);
-            numeroWhile++;
-        }while(numeroWhile<1);
+        for(int numeroFor =0 ; numeroFor<=3 ; numeroFor++) {
 
-
-
-
+            System.out.println(numeroFor);
+        }
     }
 
 
