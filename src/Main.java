@@ -1,12 +1,21 @@
 public class Main {
     public static void main(String[] args) {
 
-        Persona persona = new Persona();
-        persona.setNombre("Luis");
-        persona.setEdad(43);
-        persona.setTelefono("04126613112");
+        Cliente cliente = new Cliente();
+        cliente.setNombre("Luis");
+        cliente.setEdad(43);
+        cliente.setTelefono("04126613112");
+        cliente.setCredito(true);
 
-        System.out.println(persona.getNombre()+" tiene "+persona.getEdad()+" años y su telefono es "+persona.getTelefono());
+        System.out.println(cliente.getNombre()+" tiene "+cliente.getEdad()+" años y su telefono es "+cliente.getTelefono()+" y su credito es"+cliente.isCredito());
 
+
+        Trabajador trabajador = new Trabajador();
+        trabajador.setNombre("Jose");
+        trabajador.setEdad(23);
+        trabajador.setTelefono("0412698112");
+        trabajador.setSalario(1000);
+
+        System.out.println(trabajador.getNombre()+" tiene "+trabajador.getEdad()+" años y su telefono es "+trabajador.getTelefono()+" y su salario es "+trabajador.getSalario());
     }
 }

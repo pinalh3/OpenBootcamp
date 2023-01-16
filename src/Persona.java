@@ -28,3 +28,30 @@ public class Persona {
         return this.telefono;
     }
 }
+
+class Cliente extends Persona{
+
+    boolean credito;
+    public void setCredito(Boolean credito) {
+        this.credito = credito;
+    }
+
+    public Boolean isCredito() {
+        return this.credito;
+    }
+
+
+}
+
+class Trabajador extends Persona {
+
+    int salario;
+
+    public void setSalario(int salario) {
+        this.salario = salario;
+    }
+
+    public int getSalario() {
+        return this.salario;
+    }
+}
